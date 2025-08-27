@@ -1,0 +1,9 @@
+streamlit==1.43.2
+torch==2.5.1
+transformers==4.50.0
+huggingface-hub==0.29.3
+openai-whisper @ git+https://github.com/openai/whisper.git
+moviepy==2.1.2
+imageio-ffmpeg==0.6.0
+tqdm==4.67.1
+requests==2.31.0

@@ -8,10 +8,7 @@ async-timeout==4.0.3
 attrs==25.3.0
 beautifulsoup4==4.13.3
 blinker==1.9.0
-Brotli @ file:///C:/b/abs_c415aux9ra/croot/brotli-split_1736182803933/work
 cachetools==5.5.2
-certifi @ file:///C:/b/abs_8a944p1_gn/croot/certifi_1738623753421/work/certifi
-charset-normalizer @ file:///croot/charset-normalizer_1721748349566/work
 click==8.1.8
 colorama==0.4.6
 dataclasses-json==0.6.7
@@ -21,9 +18,10 @@ dirtyjson==1.0.8
 distro==1.9.0
 eval_type_backport==0.2.2
 exceptiongroup==1.2.2
-filelock @ file:///C:/b/abs_f2gie28u58/croot/filelock_1700591233643/work
 filetype==1.2.0
 frozenlist==1.5.0
+jsonpatch==1.33
+
 streamlit==1.43.2
 torch==2.5.1
 transformers==4.50.0
@@ -39,4 +37,3 @@ requests==2.31.0
 # - Avoid platform-specific file:// paths; use pure package names so Streamlit's builder can install.
 # - Large packages like torch may be slow or unavailable on some Streamlit builders. If deployment fails
 #   because of torch, consider using a CPU-only wheel or moving transcription to an external API.
-jsonpatch==1.33
